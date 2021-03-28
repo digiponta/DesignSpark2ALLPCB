@@ -9,6 +9,8 @@ During debugging
 
 # [How to use]
 
+(step 0) You had installed the Cygwin into your PC.
+
 (Step 1) Change your current Directory to ones putting the GBR files from DesignSpark PCB.
 
 (step 2) Execute the cnv_by_cygwin.sh by the Cygwin bash.
