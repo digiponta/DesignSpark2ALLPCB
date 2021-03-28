@@ -9,15 +9,17 @@ During debugging
 
 # [How to use]
 
-(step 0) You had installed the Cygwin into your PC.
+(step 1) You had installed the Cygwin into your PC.
 
-(Step 1) Change your current Directory to ones putting the GBR files from DesignSpark PCB.
+(Step 2) Execute the Cygwin Terminal.
 
-(step 2) Execute the cnv_by_cygwin.sh by the Cygwin bash.
+(Step 3) Change your current directory to ones putting the GBR files from DesignSpark PCB on the Terminal.
 
-(step 4) The cnv_by_cygwin.sh will make the directory 'ALLPCB' in the top of your C Drive.
+(step 4) Execute the cnv_by_cygwin.sh by the Cygwin bash.
 
-(step 5) It will put ones renamed for ALLPCB in the directory.
+(step 5) The cnv_by_cygwin.sh will make the directory 'ALLPCB' in the top of your C Drive.
+
+(step 6) It will put ones renamed for ALLPCB in the directory.
 
 
 
@@ -28,7 +30,6 @@ During debugging
 - Top Solder Mask: "filename.GTS" from "filename - Top Copper (Resist).gbr"
 
 - Top Silkscreen: "filename.GTO" from "filename - Top Silkscreen.gbr"
-
 
 - Bottom Layer: "filename.GBL" from "filename - Bottom Copper.gbr"
 
