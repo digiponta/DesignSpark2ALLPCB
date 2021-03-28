@@ -2,7 +2,9 @@
 Converting GBR Files from DesignSpark PCB to ones for ALLPCB
 
 
-# [Warning] During debugging
+# [Warning] 
+
+During debugging
 
 
 # [How to use]
