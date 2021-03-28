@@ -42,5 +42,11 @@ During debugging
 - Drills: "filename.TXT" from "filename - Drill Data - [Through Hole].drl"
 
 
+
+# [References]
+
+- https://www.allpcb.com/sns/eagle-drc-and-gerber-files_4840.html
+
+
 # -
 (C) 2021, DIGI-P, NERD.JP, BSD Lite License.
