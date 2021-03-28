@@ -21,21 +21,22 @@ During debugging
 
 # [Mapping to ALLPCB]
 
-Top Layer: filename.GTL
+- Top Layer: "filename.GTL" from "filename - Top Copper.gbr"
 
-Top Solder Mask: filename.GTS
+- Top Solder Mask: "filename.GTS" from "filename - Top Copper (Resist).gbr"
 
-Top Silkscreen: filename.GTO
+- Top Silkscreen: "filename.GTO" from "filename - Top Silkscreen.gbr"
 
-Bottom Layer: filename.GBL
 
-Bottom Solder Mask: filename.GBS
+- Bottom Layer: "filename.GBL" from "filename - Bottom Copper.gbr"
 
-Bottom Silk Screen: filename.GBO
+- Bottom Solder Mask: "filename.GBS" from "filename - Bottom Copper (Resist).gbr"
 
-Board Outline: filename.GKO
+- Bottom Silk Screen: "filename.GBO" from "filename - Bottom Silkscreen.gbr"
 
-Drills: filename.TXT
+- Board Outline: "filename.GKO" from "filename - Board Outline.gbr"
+
+- Drills: "filename.TXT" from "filename - Drill Data - [Through Hole].drl"
 
 
 # -
