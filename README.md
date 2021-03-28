@@ -2,10 +2,10 @@
 Converting GBR Files from DesignSpark PCB to ones for ALLPCB
 
 
-[Warning] During debugging
+# [Warning] During debugging
 
 
-[How to use]
+# [How to use]
 
 (Step 1) Change your current Directory to ones putting the GBR files from DesignSpark PCB.
 
@@ -17,7 +17,8 @@ Converting GBR Files from DesignSpark PCB to ones for ALLPCB
 
 
 
-[Mapping]
+# [Mapping to ALLPCB]
+
 Top Layer: filename.GTL
 
 Top Solder Mask: filename.GTS
@@ -35,7 +36,7 @@ Board Outline: filename.GKO
 Drills: filename.TXT
 
 
--------
+# -------
 (C) 2021, DIGI-P, NERD.JP
 
 BSD Lite License.
