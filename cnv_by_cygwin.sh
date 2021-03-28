@@ -1,8 +1,9 @@
 #!/bin/sh
 
-OUTDIR='/cygdrive/c/Users/inoma/Desktop/ALLPCB'
+OUTDIR='/cygdrive/c/ALLPCB'
 
 mkdir -p $OUTDIR
+echo mkdir the dir "$OUTDIR"
 
 ls *.gbr *.drl | while read ITEMGBR 
 do
@@ -10,15 +11,15 @@ do
 echo $ITEMGBR | while read FNAME TYPHEN OTHERS 
 do
 
-echo $ITEMGBR
-
-echo $FNAME
-echo $OTHERS
+#echo $ITEMGBR
+#echo $FNAME
+#echo $OTHERS
 
 if test -d "$OUTDIR/$FNAME"
 then
-echo exist dir
+echo exist the dir "$OUTDIR/$FNAME"
 else
+echo mkdir the dir "$OUTDIR/$FNAME"
 mkdir -p $OUTDIR/$FNAME
 fi
 
@@ -83,7 +84,7 @@ fi
 
 if [ "$OTHERS" = 'Drill Data - [Through Hole].drl' ]
 then
-echo $FNAME.GTO
+echo $FNAME.TXT
 cp "$ITEMGBR" "$OUTPUT/$FNAME.TXT"
 fi
 
