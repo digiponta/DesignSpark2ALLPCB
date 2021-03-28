@@ -13,9 +13,9 @@ During debugging
 
 (step 2) Execute the cnv_by_cygwin.sh by the Cygwin bash.
 
-(step 4) The cnv_by_cygwin.sh will make the directory 'ALLPCB' in your desktop.
+(step 4) The cnv_by_cygwin.sh will make the directory 'ALLPCB' in the top of your C Drive.
 
-(step 5) It will put ones for ALLPCB in the directory.
+(step 5) It will put ones renamed for ALLPCB in the directory.
 
 
 
