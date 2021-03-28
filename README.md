@@ -48,5 +48,5 @@ During debugging
 - https://www.allpcb.com/sns/eagle-drc-and-gerber-files_4840.html
 
 
-# -
+# [Credits]
 (C) 2021, DIGI-P, NERD.JP, BSD Lite License.
