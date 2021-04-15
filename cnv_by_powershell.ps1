@@ -39,11 +39,15 @@ $gbl_org = ($result_gbr | Where-Object { $_ + ".gbr"  -like "* - Bottom Copper (
 $gbl_new = $topdir + "\" + $gbl_org -replace ' - Bottom Copper \(Resist\).gbr','.gbs'
 Copy-Item $gbl_org $gbl_new 
 
-# 未テストなので、コメントアウト
+# 未テスト部位
 # Bottom Silk Screen: "filename.GBO" from "filename - Bottom Silkscreen.gbr"
-#$gbo_org = ($result_gbr | Where-Object { $_ + ".gbr"  -like "* - Bottom Silkscreen.gbr*" }) + ".gbr"
-#$gbo_new = $topdir + "\" + $gbo_org -replace ' - Bottom Silkscreen.gbr','.gbo'
-#Copy-Item $gbo_org $gbo_new 
+$gbo_org = ($result_gbr | Where-Object { $_ + ".gbr"  -like "* - Bottom Silkscreen.gbr*" }) + ".gbr"
+if (Test-Path $gbo_org) {
+$gbo_new = $topdir + "\" + $gbo_org -replace ' - Bottom Silkscreen.gbr','.gbo'
+Copy-Item $gbo_org $gbo_new 
+} else {
+echo "no Bottom Silk Screen"
+}
 
 # Board Outline: "filename.GKO" from "filename - Board Outline.gbr"
 $gko_org = ($result_gbr | Where-Object { $_ + ".gbr"  -like "* - Board Outline.gbr*" }) + ".gbr"
