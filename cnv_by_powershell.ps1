@@ -6,8 +6,6 @@ NOTE: You may need to execute "Set-ExecutionPolicy -ExecutionPolicy Bypass -Scop
 $result_gbr = (Get-ChildItem *.gbr).BaseName
 $result_drl = (Get-ChildItem *.drl).BaseName
 
-# $result_gbr
-
 # Top Layer: "filename.GTL" from "filename - Top Copper.gbr"
 $gtl_org = ($result_gbr | Where-Object { $_ + ".gbr" -like "* - Top Copper.gbr*" }) + ".gbr"
 $gtl_new = $gtl_org -replace ' - Top Copper.gbr','.gtl'
@@ -25,7 +23,6 @@ echo "no Top Copper"
 
 # Top Solder Mask: "filename.GTS" from "filename - Top Copper (Resist).gbr"
 $gts_org = ($result_gbr | Where-Object { $_ + ".gbr"  -like "* - Top Copper (Resist).gbr*" }) + ".gbr"
-
 if (Test-Path $gts_org) {
 $gts_new = $topdir + "\" + $gts_org -replace ' - Top Copper \(Resist\).gbr','.gts'
 Copy-Item $gts_org $gts_new
