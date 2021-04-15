@@ -50,9 +50,9 @@ $gko_org = ($result_gbr | Where-Object { $_ + ".gbr"  -like "* - Board Outline.g
 $gko_new = $topdir + "\" + $gko_org -replace ' - Board Outline.gbr','.gko'
 Copy-Item $gko_org $gko_new 
 
-# コピー元ファイル名に、'[]' を含むdrlファイルがコピーできない問題がある！
+
 # Drills: "filename.TXT" from "filename - Drill Data - [Through Hole].drl"
-$drl_org = ($result_drl | Where-Object { $_ + ".drl"  -like "*.drl" }) + ".drl"
+$drl_org = ($result_drl | Where-Object { $_ + ".drl"  -like "* - Drill Data - ``[Through Hole``].drl*" }) + ".drl"
 $drl_new = $topdir + "\" + $drl_org -replace " - Drill Data - \[Through Hole\].drl",".txt"
 
 Copy-Item *.drl $drl_new 
