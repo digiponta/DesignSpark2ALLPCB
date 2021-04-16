@@ -1,6 +1,6 @@
 <# Under construction:
 NOTE: You may need to execute "Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope LocalMachine"
-(C) 2021, DIGI-P, NERD.JP
+BSD Lite Lisence, (C) 2021, DIGI-P, NERD.JP
 #>
 
 $result_gbr = (Get-ChildItem *.gbr).BaseName
