@@ -19,7 +19,7 @@ During debugging
 
 (step 5) The cnv_by_cygwin.sh will make the directory 'ALLPCB' in the top of your C Drive.
 
-(step 6) It will put ones renamed for ALLPCB in the directory.
+(step 6) It will put ones renamed for ALLPCB (An example) in the directory.
 
 
 
