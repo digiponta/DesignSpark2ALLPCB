@@ -1,4 +1,5 @@
 #!/bin/sh
+# BSD Lite Lisence, (C) 2021, DIGI-P, NERD.JP
 
 OUTDIR='/cygdrive/c/ALLPCB'
 
