@@ -51,11 +51,17 @@ During debugging
   * There seem to be the same conviersion way for Elecrow, FusionPCB and PCBGOGO: 
 
    (Project name) - Bottom Copper.gbr 　　　　 -> pcb.GBL
+   
    (Project name) - Bottom Silkscreen.gbr 　　　-> pcb.GBO
+   
    (Project name) - Bottom Solder Mask.gbr 　　-> pcb.GBS
+   
    (Project name) - Drill Data – Through Hole.drl  -> pcb.TXT
+   
    (Project name) - Top Copper.gbr 　　　　　   -> pcb.GTL
+   
    (Project name) - Top Silkscreen.gbr 　　　　  -> pcb.GTO
+   
    (Project name) - Top Solder Mask.gbr 　　　  -> pcb.GTS
 
 
