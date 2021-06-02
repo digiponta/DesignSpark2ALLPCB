@@ -47,21 +47,22 @@ During debugging
 
 * https://www.allpcb.com/sns/eagle-drc-and-gerber-files_4840.html
 * https://www.rs-online.com/designspark/elecrowfusionpcbpcbgogo
-** There seem to be the same conviersion way for Elecrow, FusionPCB and PCBGOGO: 
 
-(Project name) - Bottom Copper.gbr 　　　　 -> pcb.GBL
+  * There seem to be the same conviersion way for Elecrow, FusionPCB and PCBGOGO: 
 
-(Project name) - Bottom Silkscreen.gbr 　　　-> pcb.GBO
+  (Project name) - Bottom Copper.gbr 　　　　 -> pcb.GBL
 
-(Project name) - Bottom Solder Mask.gbr 　　-> pcb.GBS
+  (Project name) - Bottom Silkscreen.gbr 　　　-> pcb.GBO
 
-(Project name) - Drill Data – Through Hole.drl  -> pcb.TXT
+  (Project name) - Bottom Solder Mask.gbr 　　-> pcb.GBS
 
-(Project name) - Top Copper.gbr 　　　　　   -> pcb.GTL
+  (Project name) - Drill Data – Through Hole.drl  -> pcb.TXT
 
-(Project name) - Top Silkscreen.gbr 　　　　  -> pcb.GTO
+  (Project name) - Top Copper.gbr 　　　　　   -> pcb.GTL
 
-(Project name) - Top Solder Mask.gbr 　　　  -> pcb.GTS
+  (Project name) - Top Silkscreen.gbr 　　　　  -> pcb.GTO
+
+  (Project name) - Top Solder Mask.gbr 　　　  -> pcb.GTS
 
 
 # [Credits]
