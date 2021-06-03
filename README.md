@@ -48,7 +48,7 @@ During debugging
 * https://www.allpcb.com/sns/eagle-drc-and-gerber-files_4840.html
 * https://www.rs-online.com/designspark/elecrowfusionpcbpcbgogo
 
-  * There seems to be the same conviersion way for Elecrow, FusionPCB and PCBGOGO: 
+  * There seems to be the same conviersion way for Elecrow, FusionPCB, PCBGOGO and JLCPCB: 
 
    (Project name) - Bottom Copper.gbr 　　　　 -> pcb.GBL
    
